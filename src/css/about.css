@@ -1,0 +1,56 @@
+div.gr{
+    display: grid;
+    grid-template-columns: 100%;
+    margin:40px 35px 20px 35px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50x;
+    font-weight: bold;
+}
+ .grid-item{
+  display: inline-block;
+  color:white;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0 0 0px;
+ 
+
+ }
+ .about img{
+    width: 95%;
+    height: 400px;
+    margin: 10px 0px 0 35px;
+    border-radius: 20px;
+    border : 2px solid white
+ }
+ .grie{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   color: white;
+   margin-bottom: 45px;
+ }
+ .grid1 .carde{
+  display: inline-block;
+  width:35rem;
+  height: 20rem;
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 0 0 20px ;
+ }
+ .carde p{
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+ }
+ .grid2 .carde{
+  display: inline-block;
+  width:35rem;
+  height: 20rem;
+  margin-left: 42px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 0 0 20px ;
+ }

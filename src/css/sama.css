@@ -1,0 +1,47 @@
+.sama {
+  width: 93vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  margin: 45px 0px 0px 100px;
+  gap: 10px 20px;
+}
+
+
+
+
+.pagination {
+
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pagination button.active {
+
+  background-color: #0e0d0f9e;
+  color: white;
+}
+
+.pagination button {
+  color: black;
+  z-index: 12;
+  margin: 4px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.bar {
+  margin-left: 66px;
+  padding: 50px;
+  width: 40%;
+  height: 125vh;
+  background-color: white;
+}
+
+.bar p {
+  font-size: 20px;
+  font-weight: none;
+}

@@ -1,0 +1,60 @@
+.contact{
+    background: rgb(82, 78, 78);
+    height: 100vh;
+    padding-top: 20px;
+    animation: forwards;
+}
+.contact p {
+    width: 20%;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto 0;
+}
+
+form {
+    height: 75vh;
+    margin: 0 auto 50px;
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto 10px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.data input {
+    padding: 6px;
+}
+
+.data label {
+    margin-top: 10px;
+}
+
+.data-t {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 5px
+}
+
+.data-t textarea {
+    margin-left: 20px;
+    width: 56vw;
+    height: 100px;
+}
+
+.btn button{
+    width: 10%;
+    color:white;
+    height: 40px;
+    margin: 10px 0 50px 800px;
+    border-radius: 10px;
+    border:2px solid rgb(17, 17, 18);
+   background-image: linear-gradient(to right, rgb(74, 80, 87) ,rgb(43, 45, 49));
+}
